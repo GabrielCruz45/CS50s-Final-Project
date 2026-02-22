@@ -4,8 +4,10 @@
 
     This is the repository for my final project of Harvard's CS50 class.
 
-    I used an Gemini, Google's LLM to brainstorm ideas for the final project. The prompt and answer being used are available in the
-    project's repository: project/docs/LLM_PROMPT.md and project/docs/LLM_PROMPT_X.png for the screen shots (X == screen shot number).
+    I used an Gemini, Google's LLM to brainstorm ideas for the final project. The prompt and answer being used are available in the project's repository: project/docs/LLM_PROMPT.md and project/docs/LLM_PROMPT_X.png for the screen shots 
+    (X == screen shot number).
+
+    Also, I am using uv as the package manager. <https://www.youtube.com/watch?v=6pttmsBSi8M>
 
 ## Framework/Libraries/etc. to be used
 
@@ -16,6 +18,7 @@
     3. JavaScript
     4. React
     5. Vite
+    6. three.js (possibly)
 
 ### Back-End
 
