@@ -1,6 +1,11 @@
 # UV python pack manager
 
-CLI commands
+## Run FastAPI with UV
+
+    uv run fastapi dev
+
+## CLI commands
+
     uv                                                                              - documentation
 
     uv python list                                                                  - list all available python versions
@@ -14,10 +19,11 @@ CLI commands
     uv remove                                                                       - remove dependencies
 
     uv init                                                                         - create new project with README, GIT
-    uv init --script <script_name.py> --python <Python version>                     - 
+    uv init --script <script_name.py> --python <Python version>                     - Run <script_name.py> with <Python version> interpreter
 
     uv sync                                                                         - sync .venv directory with .toml file
 
-Vocabulary
+## Vocabulary
+
     .toml (tom's obvious minimal language)                                          - is a requirements.txt, but a lot more detailed
     .lock                                                                           - a package-json.lock, makes sure other devs can run app
